@@ -31,6 +31,7 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "NODE_ENV=production && npx rimraf dist && npx mkdirp dist && npx babel ./src --out-dir dist --copy-files",
+        "prettier": "prettier --write '{src,demo}/{**/*,*}.js'",
         "prepare": "npm run build"
     },
     "eslintConfig": {
@@ -55,6 +56,7 @@
         "babel-preset-react": "6.24.1",
         "babel-preset-stage-2": "6.24.1",
         "gh-pages": "2.2.0",
+        "prettier": "^2.4.1",
         "react-scripts": "4.0.3"
     },
     "peerDependencies": {
