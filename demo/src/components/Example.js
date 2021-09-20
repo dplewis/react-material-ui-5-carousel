@@ -1,6 +1,6 @@
 import React from 'react';
-import Carousel from "react-material-ui-carousel"
 import autoBind from "auto-bind"
+import Carousel from "@dplewis/react-material-ui-5-carousel"
 import '../style/Example.scss';
 
 import {
@@ -16,7 +16,7 @@ import {
     RadioGroup,
     FormLabel,
     Slider,
-} from '@material-ui/core';
+} from '@mui/material';
 
 function Banner(props) {
     if (props.newProp) console.log(props.newProp)
@@ -263,6 +263,7 @@ class BannerExample extends React.Component {
                             <FormControlLabel value="slide" control={<Radio color="primary" />} label="Slide" />
                         </RadioGroup>
                     }
+                    label=""
                 />
 
                 <FormControlLabel
@@ -284,6 +285,7 @@ class BannerExample extends React.Component {
                             />
                         </div>
                     }
+                    label=""
                 />
 
             </div>
