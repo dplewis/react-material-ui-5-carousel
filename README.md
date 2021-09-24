@@ -14,7 +14,7 @@ Take a look at this interactible [Live Demo](https://learus.github.io/react-mate
 ## Installation
 
 ```shell
-npm install react-material-ui-carousel --save
+npm install @dplewis/react-material-ui-5-carousel --save
 ```
 
 **Note:**
@@ -22,9 +22,9 @@ npm install react-material-ui-carousel --save
 You will need to have `material-ui` installed, in order to use this library/component
 
 ```shell
-npm install @material-ui/core
-npm install @material-ui/icons
-npm install @material-ui/styles
+npm install @mui/material
+npm install @mui/icons-material
+npm install @mui/styles
 ```
 
 ## Usage Example
@@ -392,3 +392,4 @@ The MIT License.
 ## Author
 
 [Learus](https://learus.github.io)
+[Diamond](https://dplewis.github.io)
