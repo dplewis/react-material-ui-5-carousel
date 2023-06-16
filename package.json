@@ -1,6 +1,6 @@
 {
     "name": "@dplewis/react-material-ui-5-carousel",
-    "version": "2.3.4",
+    "version": "2.3.5",
     "license": "MIT",
     "description": "A Generic, extendible Carousel UI component for React using Material UI",
     "homepage": "https://github.com/dplewis/react-material-ui-5-carousel",
