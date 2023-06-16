@@ -14,7 +14,7 @@ Take a look at this interactible [Live Demo](https://learus.github.io/react-mate
 ## Installation
 
 ```shell
-npm install @dplewis/react-material-ui-5-carousel --save
+npm install @dplewis/react-material-ui-5-carousel
 ```
 
 **Note:**
@@ -31,7 +31,7 @@ npm install @mui/styles
 
 ```jsx
 import React from 'react';
-import Carousel from 'react-material-ui-carousel'
+import Carousel from '@dplewis/react-material-ui-5-carousel'
 import { Paper, Button } from '@material-ui/core'
 
 function Example(props)
